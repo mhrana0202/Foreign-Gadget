@@ -1,5 +1,5 @@
 /*------------------------------------
-        Body Part Here
+            Body Part Here
 -------------------------------------*/
 *{
     margin: 0;
@@ -11,6 +11,10 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 /*------------------- End (Body) ----------------------*/
+
+
+
+
 
 
 /*------------------------------------
@@ -52,6 +56,11 @@ p{
 /*------------------- End (Navbar) ----------------------*/
 
 
+
+
+
+
+
 /*------------------------------------
     Header & Container Part Here
 -------------------------------------*/
@@ -70,6 +79,8 @@ p{
     padding-right: 25px;
 }
 /*-------------- End (Header & Container) -----------------*/
+
+
 
 
 
@@ -239,7 +250,7 @@ small{
     color: #555;
 }
 /*------------------------------------
-    Latest Products End Here
+   End Section (Latest Products Here)
 -------------------------------------*/
 
 
@@ -251,7 +262,7 @@ small{
 
 
 /*------------------------------------
-    Testimonial Part Here
+        Testimonial Part Here
 -------------------------------------*/
 .testimonial{
     padding-top: 100px;
@@ -292,7 +303,7 @@ small{
     font-size: 16px;
 }
 /*------------------------------------
-    Testimonial End Here
+   End Section (Testimonial Here)
 -------------------------------------*/
 
 
@@ -304,8 +315,8 @@ small{
 
 
 /*------------------------------------
-    Brands Part Here
--------------------------------------*/
+        Brands Part Here
+---- ---------------------------------*/
 .brands{
     margin: 100px auto;
 }
@@ -324,7 +335,7 @@ small{
     filter: grayscale(0);
 }
 /*------------------------------------
-    Brands End Here
+     End Section (Brands Here)
 -------------------------------------*/
 
 
@@ -336,7 +347,7 @@ small{
 
 
 /*------------------------------------
-    Footer Part Here
+         Footer Part Here
 -------------------------------------*/
 .footer{
     background: #000;
@@ -410,8 +421,11 @@ a{
     text-align: center;
 }
 /*------------------------------------
-    Footer End Here
+    End Section (Footer Here)
 -------------------------------------*/
+
+
+
 
 
 
@@ -424,7 +438,76 @@ a{
     cursor: pointer;
     display: none;
 }
-/* -------- Menu Icon End Here --------- */
+/* -------- End Section (Menu Icon Here) --------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------
+       All Products Here
+-------------------------------------*/
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+
+select:focus{
+    outline: none;
+}
+/*------------------------------------
+     End Section (All Products Here)
+-------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+/* -------- Next Page Buttons Here --------- */
+.page-btn{
+    margin: 0 auto 80px;
+}
+
+.page-btn span{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.page-btn span:hover{
+    background: #563434;
+}
+/* -------- End Section (Next Page Buttons Here) --------- */
+
+
+
+
+
+
 
 
 
@@ -482,5 +565,5 @@ a{
     }
 }
 /*------------------------------------
-    Media Queries End Here
+   End Section (Media Queries Here)
 -------------------------------------*/
