@@ -498,9 +498,14 @@ select:focus{
     cursor: pointer;
 }
 
+.page-btn span[selected]{
+    background: #563434;
+}
+
 .page-btn span:hover{
     background: #563434;
 }
+
 /* -------- End Section (Next Page Buttons Here) --------- */
 
 
